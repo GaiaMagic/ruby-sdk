@@ -121,6 +121,7 @@ title: Ruby SDK
     Qiniu::RS.generate_upload_token :scope              => target_bucket,
                                     :expires_in         => expires_in_seconds,
                                     :callback_url       => callback_url,
+                                    :callback_body      => callback_body,
                                     :callback_body_type => callback_body_type,
                                     :customer           => end_user_id,
                                     :escape             => allow_upload_callback_api,
